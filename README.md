@@ -49,6 +49,8 @@ Performance after Optimization:
 Developed a user-friendly web application for body fat prediction using Flask API, HTML, JS, and CSS.
 Integrated the trained model into the web application to enable users to input their physical attributes and receive a predicted body fat percentage.
 
+![Image Alt Text](/ClientSide.jpeg)
+![Image Alt Text](/Prediction.jpeg)
 
 # Summary
 The Body Fat Prediction project aimed to create a user-friendly tool for estimating body fat percentage based on various physical attributes. The project covered data preprocessing, exploratory data analysis, feature engineering, model selection, and deployment of a web application. The application allows users to input their personal attributes and receive an estimated body fat percentage, providing valuable insights for individuals interested in monitoring their health and fitness levels.
