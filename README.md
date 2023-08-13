@@ -54,7 +54,7 @@ In this case, Linear Regression outperformed both Random Forest and Support Vect
 Developed a user-friendly web application for body fat prediction using Flask API, HTML, JS, and CSS.
 Integrated the trained model into the web application to enable users to input their physical attributes and receive a predicted body fat percentage.
 
-![Image Alt Text](/ClientSide.jpeg)
+![Image Alt Text](/Client_Side.jpeg)
 ![Image Alt Text](/Prediction.jpeg)
 
 # Summary
