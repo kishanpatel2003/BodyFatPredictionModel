@@ -3,7 +3,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-green)](https://numpy.org)
 [![pandas](https://img.shields.io/badge/pandas-Data%20Analysis-red)](https://pandas.pydata.org)
 
-- Created a tool that predicts a person's body fat (MAE ~ $ 3.3%) to help people better understand their health and caloric needs
+- Created a tool that predicts a person's body fat (MAE ~ 3.3%) to help people better understand their health and caloric needs
 - Collected and preprocessed Kaggle Data Set of 253 data points
 - Performed an exploratory data analysis to understand correlations in data and created visualizations
 - Feature engineered to only include easy-to-obtain inputs for user convenience
