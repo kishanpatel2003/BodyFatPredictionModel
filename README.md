@@ -10,6 +10,7 @@ Gathered a dataset containing physical attributes (such as Age, Weight, Height, 
 Performed data preprocessing tasks, including handling missing values and ensuring data consistency.
 ## 2. Exploratory Data Analysis (EDA)
 I looked at the distributions of the data and explored the correlation of different attributes and body fat statistics. Below are some highlights of the visualizations I created.
+
 ![Image Alt Text](/CorrelationTable.png)
 ![Image Alt Text](/BodyFat.png)
 ![Image Alt Text](/Abdomen.png)
