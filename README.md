@@ -2,7 +2,11 @@
 [![scikit-learn](https://img.shields.io/badge/scikit_learn-Machine%20Learning-orange)](https://scikit-learn.org)
 [![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-green)](https://numpy.org)
 [![pandas](https://img.shields.io/badge/pandas-Data%20Analysis-red)](https://pandas.pydata.org)
+
 In this project, I developed a tool for predicting body fat percentage using machine learning techniques. The primary objective was to create an accurate predictive model to help individuals estimate their body fat percentage based on various physical attributes. The project encompassed data preprocessing, exploratory data analysis (EDA), feature engineering, model selection (chose between regression, random forest regressor, and support vector regression model**), and the creation of a full-stack prediction web application.
+
+Packages: pandas, numpy, sklearn, matplotlib, seaborn, flask
+Languages: Python, HTML, JS, CSS
 
 # Project Steps
 ## 1. Data Collection and Preprocessing
@@ -31,19 +35,18 @@ Support Vector Regression – explored Support Vector Regression to capture intr
 
 ## 4. Hyperparameter Tuning and Model Performance
 
+Used GridSearchCV for hyperparameter tuning. By defining a grid of hyperparameters, I was able to systematically explore various combinations and identify the best parameters that optimize the model's performance. Through cross-validation, GridSearchCV evaluated each combination of hyperparameters, returning the set that produced the most accurate predictions. This method not only streamlined the hyperparameter tuning process but also helped in enhancing the overall performance of the model.
 
+Performance after Optimization:
+
+- Linear Regression : MAE = 
+- Random Forest: MAE =
+- Support Vector Regression: MAE =
 
 ## 5. Model productionization
-Developed a user-friendly web application for body fat prediction using Flask, HTML, and CSS.
+Developed a user-friendly web application for body fat prediction using Flask API, HTML, JS, and CSS.
 Integrated the trained model into the web application to enable users to input their physical attributes and receive a predicted body fat percentage.
-Code and Resources Used
-Python Version: (Your Python version)
 
-Packages: pandas, numpy, sklearn, matplotlib, seaborn, flask
-
-GitHub Repository: (Link to your GitHub repository for the project, if applicable)
-
-Web Deployment Tutorial: (Any resources or tutorials you followed to deploy the Flask web application)
 
 # Summary
 The Body Fat Prediction project aimed to create a user-friendly tool for estimating body fat percentage based on various physical attributes. The project covered data preprocessing, exploratory data analysis, feature engineering, model selection, and deployment of a web application. The application allows users to input their personal attributes and receive an estimated body fat percentage, providing valuable insights for individuals interested in monitoring their health and fitness levels.
