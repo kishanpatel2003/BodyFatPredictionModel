@@ -7,11 +7,12 @@
 - Collected and preprocessed Kaggle Data Set of 253 data points
 - Performed an exploratory data analysis to understand correlations in data and created visualizations
 - Feature engineered to only include easy-to-obtain inputs for user convenience
-- Built and optimized **Linear regression**, **Random Forest Regressors**, and **Support Vector Regression** models using GridsearchCV to reach the best model.
+- Built and optimized ***Linear regression***, ***Random Forest Regressors***, and ***Support Vector Regression*** models using GridsearchCV to reach the best model.
 - Created a client-facing API using flask and built an interactive front-end display with HTML, CSS, and JS. 
 
 
 Packages: pandas, numpy, sklearn, matplotlib, seaborn, flask
+
 Languages: Python, HTML, JS, CSS
 
 # Project Steps
