@@ -30,7 +30,9 @@ I then tried three different models and evaluated them using Mean Absolute Error
 I tried three different models:
 
 Linear Regression – Baseline for the model
+
 Random Forest Regressor – Because it's great at finding patterns in complex data, which is important since body fat can be influenced by various factors.
+
 Support Vector Regression – explored Support Vector Regression to capture intricate relationships in the data, as body fat can be influenced by both linear and nonlinear factors, and SVR can handle such complexity.
 
 ## 4. Hyperparameter Tuning and Model Performance
