@@ -1,13 +1,18 @@
 # Body Fat % Prediction Tool: Support Vector Regression Model
-In this project, I developed a tool for predicting body fat percentage using machine learning techniques. The primary objective was to create an accurate predictive model to help individuals estimate their body fat percentage based on various physical attributes. The project encompassed data preprocessing, exploratory data analysis (EDA), feature engineering, model selection (chose between regression, random forest regressor, and support vector regression model**), and creation of a full-stack prediction web application.
+[![scikit-learn](https://img.shields.io/badge/scikit_learn-Machine%20Learning-orange)](https://scikit-learn.org)
+[![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-green)](https://numpy.org)
+[![pandas](https://img.shields.io/badge/pandas-Data%20Analysis-red)](https://pandas.pydata.org)
+In this project, I developed a tool for predicting body fat percentage using machine learning techniques. The primary objective was to create an accurate predictive model to help individuals estimate their body fat percentage based on various physical attributes. The project encompassed data preprocessing, exploratory data analysis (EDA), feature engineering, model selection (chose between regression, random forest regressor, and support vector regression model**), and the creation of a full-stack prediction web application.
 
 # Project Steps
 ## 1. Data Collection and Preprocessing
 Gathered a dataset containing physical attributes (such as Age, Weight, Height, Neck circumference, etc.) and corresponding body fat percentages.
 Performed data preprocessing tasks, including handling missing values and ensuring data consistency.
 ## 2. Exploratory Data Analysis (EDA)
-![Image Alt Text](/Correlation Table.png)
+I looked at the distributions of the data and explored the correlation of different attributes and body fat statistics. Below are some highlights of the visualizations I created.
+![Image Alt Text](/CorrelationTable.png)
 ![Image Alt Text](/BodyFat.png)
+![Image Alt Text](/Abdomen.png)
 
 ## 3. Feature Engineering
 Split the dataset into predictor variables (attributes) and the target variable (body fat percentage).
