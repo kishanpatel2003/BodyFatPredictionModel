@@ -7,13 +7,13 @@
 - Collected and preprocessed Kaggle Data Set of 253 data points
 - Performed an exploratory data analysis to understand correlations in data and created visualizations
 - Feature engineered to only include easy-to-obtain inputs for user convenience
-- Built and optimized ***Linear regression***, ***Random Forest Regressors***, and ***Support Vector Regression*** models using GridsearchCV to reach the best model.
+- Built ***Linear regression***, ***Random Forest Regressors***, and ***Support Vector Regression*** models and optimized using GridsearchCV to reach the best model.
 - Created a client-facing API using flask and built an interactive front-end display with HTML, CSS, and JS. 
 
 
-Packages: pandas, numpy, sklearn, matplotlib, seaborn, flask
-
 Languages: Python, HTML, JS, CSS
+
+Packages: pandas, numpy, sklearn, matplotlib, seaborn, flask
 
 # Project Steps
 ## 1. Data Collection and Preprocessing
@@ -30,7 +30,6 @@ I looked at the distributions of the data and explored the correlation of differ
 Split the dataset into predictor variables (attributes) and the target variable (body fat percentage).
 Also dropped the density attribute from my experiment to avoid multicollinearity and to improve the user's ease of use. I want the user to be able to obtain an accurate BF% estimate with as little as a tape measure. 
 ## 4. Model Selection
-
 First, I  split the data into train and test sets with a test size of 20%.
 
 I then tried three different models and evaluated them using Mean Absolute Error, Mean Squared Error, and R^2 Score. 
@@ -41,7 +40,6 @@ Linear Regression – Baseline for the model
 Random Forest Regressor – Because it's great at finding patterns in complex data, which is important since body fat can be influenced by various factors.
 
 Support Vector Regression – explored Support Vector Regression to capture intricate relationships in the data, as body fat can be influenced by both linear and nonlinear factors, and SVR can handle such complexity.
-
 ## 4. Hyperparameter Tuning and Model Performance
 
 Used GridSearchCV for hyperparameter tuning. By defining a grid of hyperparameters, I was able to systematically explore various combinations and identify the best parameters that optimize the model's performance. Through cross-validation, GridSearchCV evaluated each combination of hyperparameters, returning the set that produced the most accurate predictions. This method not only streamlined the hyperparameter tuning process but also helped in enhancing the overall performance of the model.
