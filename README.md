@@ -58,4 +58,4 @@ Integrated the trained model into the web application to enable users to input t
 ![Image Alt Text](/Prediction.jpeg)
 
 # Summary
-The Body Fat Prediction project aimed to create a user-friendly tool for estimating body fat percentages based on various physical attributes. The project covered data preprocessing, exploratory data analysis, feature engineering, model selection, and deployment of a web application. The application allows users to input their personal attributes and receive an estimated body fat percentage, providing valuable insights for individuals interested in monitoring their health and fitness levels.
+The Body Fat Prediction project aimed to create a user-friendly tool for estimating body fat percentages based on various physical attributes. The project covered data preprocessing, exploratory data analysis, feature engineering, model selection, and creation of a web application. The application allows users to input their personal attributes and receive an estimated body fat percentage, providing valuable insights for individuals interested in monitoring their health and fitness levels.
