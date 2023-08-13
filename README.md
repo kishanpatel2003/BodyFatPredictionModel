@@ -5,6 +5,14 @@
 
 In this project, I developed a tool for predicting body fat percentage using machine learning techniques. The primary objective was to create an accurate predictive model to help individuals estimate their body fat percentage based on various physical attributes. The project encompassed data preprocessing, exploratory data analysis (EDA), feature engineering, model selection (chose between linear regression, random forest regressor, and support vector regression model), and the creation of a full-stack prediction web application.
 
+- Created a tool that predicts a person's body fat (MAE ~ $ 3.3%) to help people better understand their health and caloric needs
+- Collected and preprocessed Kaggle Data Set of 253 data points
+- Performed an exploratory data analysis to understand correlations in data and created visualizations
+- Feature engineered to only include easy-to-obtain inputs for user convenience
+- Built and optimized **Linear regression**, **Random Forest Regressors**, and **Support Vector Regression** models using GridsearchCV to reach the best model.
+- Created a client-facing API using flask and built an interactive front-end display with HTML, CSS, and JS. 
+
+
 Packages: pandas, numpy, sklearn, matplotlib, seaborn, flask
 Languages: Python, HTML, JS, CSS
 
