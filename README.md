@@ -1,9 +1,9 @@
-# Body Fat % Prediction Tool: Support Vector Regression Model
+# Body Fat % Prediction Model
 [![scikit-learn](https://img.shields.io/badge/scikit_learn-Machine%20Learning-orange)](https://scikit-learn.org)
 [![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-green)](https://numpy.org)
 [![pandas](https://img.shields.io/badge/pandas-Data%20Analysis-red)](https://pandas.pydata.org)
 
-In this project, I developed a tool for predicting body fat percentage using machine learning techniques. The primary objective was to create an accurate predictive model to help individuals estimate their body fat percentage based on various physical attributes. The project encompassed data preprocessing, exploratory data analysis (EDA), feature engineering, model selection (chose between regression, random forest regressor, and support vector regression model**), and the creation of a full-stack prediction web application.
+In this project, I developed a tool for predicting body fat percentage using machine learning techniques. The primary objective was to create an accurate predictive model to help individuals estimate their body fat percentage based on various physical attributes. The project encompassed data preprocessing, exploratory data analysis (EDA), feature engineering, model selection (chose between linear regression, random forest regressor, and support vector regression model), and the creation of a full-stack prediction web application.
 
 Packages: pandas, numpy, sklearn, matplotlib, seaborn, flask
 Languages: Python, HTML, JS, CSS
@@ -41,9 +41,14 @@ Used GridSearchCV for hyperparameter tuning. By defining a grid of hyperparamete
 
 Performance after Optimization:
 
-- Linear Regression : MAE = 
-- Random Forest: MAE =
-- Support Vector Regression: MAE =
+- Linear Regression : MAE = 3.32925
+- Random Forest: MAE = 3.39829
+- Support Vector Regression: MAE = 3.45777
+
+In this case, Linear Regression outperformed both Random Forest and Support Vector Regression, likely for the following reasons:
+1) Underlying relationships between attributes
+2) Overfitting in complex models
+3) Simplicity and efficiency
 
 ## 5. Model productionization
 Developed a user-friendly web application for body fat prediction using Flask API, HTML, JS, and CSS.
@@ -53,4 +58,4 @@ Integrated the trained model into the web application to enable users to input t
 ![Image Alt Text](/Prediction.jpeg)
 
 # Summary
-The Body Fat Prediction project aimed to create a user-friendly tool for estimating body fat percentage based on various physical attributes. The project covered data preprocessing, exploratory data analysis, feature engineering, model selection, and deployment of a web application. The application allows users to input their personal attributes and receive an estimated body fat percentage, providing valuable insights for individuals interested in monitoring their health and fitness levels.
+The Body Fat Prediction project aimed to create a user-friendly tool for estimating body fat percentages based on various physical attributes. The project covered data preprocessing, exploratory data analysis, feature engineering, model selection, and deployment of a web application. The application allows users to input their personal attributes and receive an estimated body fat percentage, providing valuable insights for individuals interested in monitoring their health and fitness levels.
