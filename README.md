@@ -22,9 +22,9 @@ Performed data preprocessing tasks, including handling missing values and ensuri
 ## 2. Exploratory Data Analysis (EDA)
 I looked at the distributions of the data and explored the correlation of different attributes and body fat statistics. Below are some highlights of the visualizations I created.
 
-![Image Alt Text](/Images/CorrelationTable.png)
-![Image Alt Text](/Images/BodyFat.png)
-![Image Alt Text](/Images/Abdomen.png)
+![Image Alt Text](/images/CorrelationTable.png)
+![Image Alt Text](/images/BodyFat.png)
+![Image Alt Text](/images/Abdomen.png)
 
 ## 3. Feature Engineering
 Split the dataset into predictor variables (attributes) and the target variable (body fat percentage).
@@ -59,8 +59,8 @@ In this case, Linear Regression outperformed both Random Forest and Support Vect
 Developed a user-friendly web application for body fat prediction using Flask API, HTML, JS, and CSS.
 Integrated the trained model into the web application to enable users to input their physical attributes and receive a predicted body fat percentage.
 
-![Image Alt Text](/Images/Client_Side.jpeg)
-![Image Alt Text](/Images/Prediction.jpeg)
+![Image Alt Text](/images/Client_Side.jpeg)
+![Image Alt Text](/images/Prediction.jpeg)
 
 # Summary
 The Body Fat Prediction project aimed to create a user-friendly tool for estimating body fat percentages based on various physical attributes. The project covered data preprocessing, exploratory data analysis, feature engineering, model selection, and creation of a web application. The application allows users to input their personal attributes and receive an estimated body fat percentage, providing valuable insights for individuals interested in monitoring their health and fitness levels.
